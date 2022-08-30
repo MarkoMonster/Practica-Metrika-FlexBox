@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.bg-jade{
+    background-color: #6bb0a3;
+}
+.bg-verde{
+    background-color: #6aae8d;
+}
+.bg-rojo{
+    background-color: #ba5848;
+}
+.bg-azul{
+    background-color: #4a9fc8;
+}
+.bg-rosa{
+    background-color: #c8517a;
+}
+.bg-naranja{
+    background-color: #cc784a;
+}
+.bg-naranja-claro{
+    background-color: #d09342;
+}
+body{
+    background-image: url('../img/bg-bibiloteca.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    align-items: center;
+    flex-grow: 1;
+    height: 100vh;
+}
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .titulo-header{
+        color: white;
+        font-weight: 100;
+    }
+    .header-link{
+        color: #fff;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+main{
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+    .card{
+        display: flex;
+        flex-flow: column wrap;
+        flex-grow: 1;
+    }
+    .box{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+
+        flex-grow: 1;
+    }
+        .box-small{
+            padding: 5px;
+            height: 130px;
+            display: flex;
+            flex-grow: 1;
+        }
+        .box-mid{
+            height: 130px; 
+            display: flex;
+        }
+        .box-big{
+            align-self: stretch;
+            display: flex;
+        }
+        .box-big, .box-mid{
+            flex-grow: 1;
+            padding: 5px;
+        }
+            .bg{
+                flex-grow: 1;
+                align-self:stretch;
+                padding: 5px;
+                display: flex;
+            }
+            .bg-rojo, .bg-rosa{
+                flex-grow: 1;
+            }
+                span{
+                    align-self: flex-end;
+                    color: white;
+                }
+footer{
+    background-color: rgba(255,255,255,.8);
+    padding: 15px;
+}
+p{
+    align-self: flex-end;
+    padding: 10px;
+    color: white;
+}
+    .link-footer{
+        color: #4a9fc8;
+    }
